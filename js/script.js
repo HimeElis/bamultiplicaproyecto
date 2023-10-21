@@ -7,9 +7,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
-/*formulario*/
-
-
-
-/*fin formulario*/

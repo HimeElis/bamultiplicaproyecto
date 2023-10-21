@@ -84,6 +84,15 @@ body {
   width:calc(100% - 2px);
   padding:16px;
 }
+/* animación con css*/
+.animate__animated animate__bounce {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; 
+  animation-duration: 2s; 
+}
+
 /*fin seteo inicio*/
 
 /*seteo article inicio grid*/
@@ -223,6 +232,15 @@ h1 {
   .column {
     width: 100%;
   }
+}
+
+
+.animate__flash {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: flash; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
 }
 /*fin galeria*/
 
